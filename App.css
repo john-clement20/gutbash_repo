@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.input {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.input.dragged {
+  transform: scale(1.2);
+}
+
+.input.dropped {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+.input-group span {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.submit-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333}
